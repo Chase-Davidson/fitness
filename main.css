@@ -1,0 +1,54 @@
+/* Add Background Color */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+/* Navigation styling */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* hover color */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* add background color*/
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/* change header size and location*/
+h1  {
+background-image: url("gym.jpg");
+padding: 150px;
+background-size: cover;
+text-align: center;
+color: #708090;
+font-size: 36pt;
+}
+/*float image right w/ border */
+img {
+  padding-top: 10px;
+  border: 20px solid #708090;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+  height: 300px;
+}
+/*table adjustiments*/
+table {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+table, th {
+  border: 1px black solid;
+  text-align: center;
+}
