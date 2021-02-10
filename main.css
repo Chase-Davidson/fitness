@@ -28,7 +28,7 @@ background-image: url("gym.jpg");
 padding: 150px;
 background-size: cover;
 text-align: center;
-color: #708090;
+color: white;
 font-size: 36pt;
 }
 /*float image right w/ border */
@@ -48,7 +48,24 @@ table {
   padding-right: 10px;
   padding-bottom: 10px;
 }
-table, th {
-  border: 1px black solid;
+table, td, th {
+  border: 1px solid black;
   text-align: center;
+}
+.container{
+  margin: auto;
+  width: 80%;
+
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.submit {
+  width: initial; position: initial;
+}
+tr:nth-child(even){
+  background-color: #D3D3D3; color: #696969;
+}
+tr:nth-child(odd){
+  background-color: #696969; color: #D3D3D3;
 }
